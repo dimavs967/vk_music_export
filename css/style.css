@@ -1,0 +1,12 @@
+:root{
+    --title-color: #000000; /* HEX-цвет */
+}
+.title { 
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--title-color);
+    font-size: 14px;
+    line-height: 16px;
+}
