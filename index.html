@@ -8,7 +8,23 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <p class="title">VK Music export</p>
+  <div class="export-panel">
+    <div class="export-panel__body">
+      <div class="export-panel__title title">
+        VK Music export
+      </div>
+      <label class="export-panel__toggle">
+        <input class="export-panel__toggle-input" type="checkbox">
+        <span class="export-panel__toggle-label text">Remove all duplicate</span>
+      </label>
+      <label class="export-panel__toggle">
+        <input class="export-panel__toggle-input text" type="checkbox">
+        <span class="export-panel__toggle-label text">Sort by alphabet</span>
+      </label>
+      <button class="export-panel__button text button">Export</button>
+      <p class="export-panel__footer text">Buy me a coffee</p>
+    </div>
+  </div>
 
   <script type="module" src="js/main.js"></script>
 </body>
